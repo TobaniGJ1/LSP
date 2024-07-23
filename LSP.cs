@@ -65,14 +65,16 @@ namespace LSP
 		{
 			List<Course> courses = new List<Course>
 		{
-			new OnlineCourse { CourseId = 1, Title = "Online C# Course" },
+			new OnlineCourse { CourseId = 1, Title = "Curso de Programación en Línea"},
 
 
-			new OfflineCourse { CourseId = 2, Title = "Offline C# Course" },
-			new HybridCourse { CourseId = 3, Title = "Hybrid C# Course" }
+			new OfflineCourse { CourseId = 2, Title = "Curso de Programación Presencial" },
+			new HybridCourse { CourseId = 3, Title = "Curso de Programación Híbrido" }
 		};
 
-			Student student = new Student { StudentId = 1, Name = "John Doe" };
+
+
+			Student student = new Student { StudentId = 1, Name = "Tobani Gonzalez" };
 
 			foreach (var course in courses)
 			{
